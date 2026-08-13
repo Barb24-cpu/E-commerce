@@ -38,8 +38,26 @@ const Home = () => {
                 <section className="bg-white border-b border-gray-100">
                     <div classname="max-w-7xl mx-auto px-6 py-20 text-center">
                         <p classname="text-[#FF6A00] font-semibold tracking-wider mb-3 uppercase">
-                            
+                            WELCOME TO SOKOPLUS
                         </p>
+
+                        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 tracking-tight">
+              Shop Directly from{" "}
+              <span className="text-[#FF6A00]">Independent Sellers</span>
+            </h1>
+
+            <p className="max-w-2xl mx-auto text-lg text-gray-600 mb-8 leading-relaxed">
+              Discover unique products from trusted independent sellers. Shop
+              safely with protected payments and transparent transactions.
+            </p>
+
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              <Link
+                to="/products"
+                className="bg-[#FF6A00] text-white px-7 py-3 rounded-lg font-semibold hover:bg-[#e05d00] transition-colors shadow-sm"
+              >
+                Shop Products
+              </Link>
                     </div>
                 </section>
             </main>
