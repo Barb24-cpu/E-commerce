@@ -35,7 +35,16 @@ const Navbar = () => {
 
                 </nav>
 
-                <div>
+                {/* Cart */}
+                <div classname="flex items-center space-x-6">
+                    <Link>
+                    to="/orders"
+                    aria-label="Shopping Cart"
+                    className="text-2xl" hover:scale-110 transition-transform duration-150 inline-block"
+
+                    🛒
+                    </Link>
+              
                     <Link to="/login" classname="text-lg font-semibold text-gray-800 hover:text-[#FF6A00] transition-color">
                     login
                     </Link>
