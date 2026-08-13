@@ -25,6 +25,8 @@ const Footer = () => {
                     <h4 className="text-lg font-bold mb-3 text-white">Social media</h4>
                     <div className="flex space-x-4 text-sm">
                         <a href="#twitter" className="text-gray-400 hover:text-[#FF6A00] transition-colors">Twitter</a>
+                        <a href="#facebook" className="text-gray-400 hover:text-[#FF6A00] transition-colors">Facebook</a>
+                        <a href="#linkedin" className="text-gray-400 hover:text-[#FF6A00] transition-colors">LinkedIn</a>
                     </div>
                 </div>
             </div>
