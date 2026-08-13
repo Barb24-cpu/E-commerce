@@ -147,12 +147,59 @@ const Home = () => {
                   key={review.id}
                   className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white"
                 >
+                  {/* Rating Stars */}
+                  <div className="flex mb-4">
+                    {Array.from({ length: review.rating }).map((_, index) => (
+                      <span
+                        key={index}
+                        className="text-[#FF6A00] text-xl mr-1"
+                      >
+                        ★
+                      </span>
+                    ))}
+                  </div>
+
+                  <p className="text-gray-600 mb-5 italic">
+                    "{review.comment}"
+                  </p>
+
+                  <h4 className="font-bold text-gray-900">
+                    {review.name}
+                  </h4>
+
+                  <p className="text-sm text-gray-500">{review.role}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Call To Action (CTA) */}
+        <section className="bg-gray-900 text-white py-16">
+          <div className="max-w-4xl mx-auto px-6 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Ready to Start Shopping?
+            </h2>
+
+            <p className="text-gray-400 mb-8">
+              Explore products from independent sellers today.
+            </p>
+
+            <Link
+              to="/products"
+              className="inline-block bg-[#FF6A00] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#e05d00] transition-colors shadow-md"
+            >
+              Browse Products
+            </Link>
+
+            
                     </div>
                 </section>
             </main>
+            <Footer />
 
         </div>
-    )
-}
+    );
+};
 
 export default Home;
