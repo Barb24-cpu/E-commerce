@@ -19,6 +19,14 @@ const Footer = () => {
                     <li>HQ: Nairobi, Kenya</li>
                     </ul>
                 </div>
+
+                {/* Social Links */}
+                <div>
+                    <h4 className="text-lg font-bold mb-3 text-white">Social media</h4>
+                    <div className="flex space-x-4 text-sm">
+                        <a href="#twitter" className="text-gray-400 hover:text-[#FF6A00] transition-colors">Twitter</a>
+                    </div>
+                </div>
             </div>
         </footer>
     )
