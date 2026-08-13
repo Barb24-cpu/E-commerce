@@ -10,7 +10,23 @@ const Navbar = () => {
                 </Link>
 
                 <nav className="flex items-center space-x-8 text-lg font-medium text-gray-700">
-                    
+                    <NavLink>
+                        to="/"
+                        classname={({ isActive }) =>
+                        isActive ? "text-[#FF6A00] font-bold border-b-2 border-[#FF6800] pb-1" : "hover:text-[#FF6A00] transition-colors"
+                        }
+
+                        home
+                    </NavLink>
+                    <NavLink>
+                    to="/products"
+                    className={({ isActive }) =>
+                        isActive ? "text-[#FF6A00] font-bold border-b-2 border-[#FF6A00] pb-1" : "hover:text-[#FF6A00] transition-colors"
+                    }
+
+                    product
+                    </NavLink>
+
                 </nav>
             </div>
         </header>
