@@ -31,6 +31,12 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="border-t border-gray-800 max-w-6xl mx-auto px-6 pt-6 text-center text-xs text-gray-500">
+                {new Date().getFullYear()} SokoPlus. All rights reserved.
+            </div>
         </footer>
-    )
-}
+    );
+};
+
+export default Footer;
