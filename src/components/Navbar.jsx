@@ -26,9 +26,23 @@ const Navbar = () => {
 
                     product
                     </NavLink>
+                    <NavLink>
+                        to="/orders"
+                        className={({ isActive }) =>
+                       isActive ? "text-[#FF6A00] font-bold border-b-2 border-[#FF6800] pb-1" : "hover:text-[#FF6A00] transition-colors"
+                        }
+                    </NavLink>
 
                 </nav>
+
+                <div>
+                    <Link to="/login" classname="text-lg font-semibold text-gray-800 hover:text-[#FF6A00] transition-color">
+                    login
+                    </Link>
+                </div>
             </div>
         </header>
-    )
-}
+    );
+};
+
+export default Navbar;
