@@ -31,15 +31,15 @@ const Home = () => {
 
     return (
         <div className="min-h-screen bg-gray-50 flex flex-col justify-between">
-            <navbar />
+            <Navbar />
 
             <main className="flex-grow">
                 {/* Hero Section */}
-                <section className="bg-white border-b border-gray-100">
-                    <div classname="max-w-7xl mx-auto px-6 py-20 text-center">
-                        <p classname="text-[#FF6A00] font-semibold tracking-wider mb-3 uppercase">
-                            WELCOME TO SOKOPLUS
-                        </p>
+              <section className="bg-white border-b border-gray-100">
+          <div className="max-w-7xl mx-auto px-6 pt-16 pb-20 text-center">
+                      <p className="text-[#FF6A00] font-bold tracking-widest text-sm mb-6 uppercase">
+              WELCOME TO SOKOPLUS
+            </p>
 
                         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 tracking-tight">
               Shop Directly from{" "}

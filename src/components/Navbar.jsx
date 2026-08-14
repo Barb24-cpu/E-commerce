@@ -9,6 +9,68 @@ import { NavLink, Link } from "react-router-dom";const Navbar = () => {
         >
           SokoPlus
         </Link>
+
+        {/* Navigation */}
+        <nav className="hidden md:flex items-center space-x-8 text-lg font-medium text-gray-700">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive
+                ? "text-[#FF6A00] font-bold border-b-2 border-[#FF6A00] pb-1"
+                : "hover:text-[#FF6A00] transition-colors"
+            }
+          >
+            Home
+          </NavLink>
+
+        
+
+          <NavLink
+            to="/products"
+            className={({ isActive }) =>
+              isActive
+                ? "text-[#FF6A00] font-bold border-b-2 border-[#FF6A00] pb-1"
+                : "hover:text-[#FF6A00] transition-colors"
+            }
+          >
+            Products
+          </NavLink>
+
+          <NavLink
+            to="/orders"
+            className={({ isActive }) =>
+              isActive
+                ? "text-[#FF6A00] font-bold border-b-2 border-[#FF6A00] pb-1"
+                : "hover:text-[#FF6A00] transition-colors"
+            }
+          >
+            Orders
+          </NavLink>
+        </nav>
+
+        {/* Cart Emoji Button & Login */}
+        <div className="flex items-center space-x-5">
+          <Link
+            to="/orders"
+            aria-label="Shopping Cart"
+            className="text-2xl hover:scale-110 transition-transform duration-150"
+          >
+            🛒
+          </Link>
+
+          <Link
+            to="/login"
+            className="text-lg font-semibold text-gray-800 hover:text-[#FF6A00] transition-colors"
+          >
+            Login
+          </Link>
+        </div>
+
+
+
       </div>
-  )
-}
+      </header>
+  );
+};
+
+export default Navbar;
