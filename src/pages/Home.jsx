@@ -69,7 +69,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Features Section */}
+        {/* Features Section
         <section className="py-16">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-10">
@@ -126,7 +126,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Reviews Section */}
         <section className="bg-white py-16 border-y border-gray-100">
