@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Features from '../components/Features';
+import Reviews from '../components/Reviews';
 
 const Home = () => {
     // Reviews state
@@ -69,110 +71,13 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Features Section
-        <section className="py-16">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold text-gray-900">
-                Why Choose SokoPlus?
-              </h2>
-
-              <p className="text-gray-600 mt-2">
-                Everything you need for a safe and simple shopping experience.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center">
-                <div className="w-12 h-12 bg-orange-100 text-[#FF6A00] font-bold text-lg rounded-full flex items-center justify-center mx-auto mb-4">
-                  01
-                </div>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Independent Sellers
-                </h3>
-
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Discover products directly from independent merchants.
-                </p>
-              </div>
-
-              <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center">
-                <div className="w-12 h-12 bg-orange-100 text-[#FF6A00] font-bold text-lg rounded-full flex items-center justify-center mx-auto mb-4">
-                  02
-                </div>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Protected Payments
-                </h3>
-
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Shop with confidence using our protected payment system.
-                </p>
-              </div>
-
-              <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 text-center">
-                <div className="w-12 h-12 bg-orange-100 text-[#FF6A00] font-bold text-lg rounded-full flex items-center justify-center mx-auto mb-4">
-                  03
-                </div>
-
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Trusted Marketplace
-                </h3>
-
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  Transparent transactions between buyers and sellers.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section> */}
+        {/* Features Section */}
+        <Features />
 
         {/* Reviews Section */}
-        <section className="bg-white py-16 border-y border-gray-100">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold text-gray-900">
-                What Our Customers Say
-              </h2>
+        <Reviews reviews={reviews} />
 
-              <p className="text-gray-600 mt-2">
-                Trusted by buyers and independent sellers.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {reviews.map((review) => (
-                <div
-                  key={review.id}
-                  className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white"
-                >
-                  {/* Rating Stars */}
-                  <div className="flex mb-4">
-                    {Array.from({ length: review.rating }).map((_, index) => (
-                      <span
-                        key={index}
-                        className="text-[#FF6A00] text-xl mr-1"
-                      >
-                        ★
-                      </span>
-                    ))}
-                  </div>
-
-                  <p className="text-gray-600 mb-5 italic">
-                    "{review.comment}"
-                  </p>
-
-                  <h4 className="font-bold text-gray-900">
-                    {review.name}
-                  </h4>
-
-                  <p className="text-sm text-gray-500">{review.role}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+      
 
         {/* Call To Action (CTA) */}
         <section className="bg-gray-900 text-white py-16">
