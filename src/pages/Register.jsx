@@ -21,3 +21,12 @@ const Register = () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, password }),
       });
+
+    //   response from the backend API& throw an error if the response is not ok
+         const data = await res.json();
+      if (!res.ok) throw new Error(data.message || 'Register failed');
+      navigate('/login');
+    } catch (err) {
+      setError(err.message);
+    }
+  };
