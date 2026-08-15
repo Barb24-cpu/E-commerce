@@ -51,3 +51,15 @@ const Register = () => {
 
 
           <div></div>
+          <button type="submit" className="w-full bg-[#FF6A00] text-white py-2 rounded-lg">Create Account</button>
+        </form>
+
+        <p className="text-center text-gray-600 mt-6">
+          Already have an account? <Link to="/login" className="text-[#FF6A00] font-semibold">Login</Link>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Register;
