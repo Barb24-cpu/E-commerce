@@ -24,11 +24,44 @@ const BuyerLoginPage = () => {
 if(!password) {
     formErrors.password = "Password is required";
 }
-
-
 // set error state
-
 
 setError(formErrors);
 return Object.keys(formErrors).length === 0;
 };
+
+// function to handle form submission
+const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!validateForm()) return;
+
+    // call backend API
+    (async () => {
+        try {
+            const res = await fetch("http://localhost:5176/api/login",{
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ email, password }),
+            });
+            // handle response on backend API call
+            const data = await res.json();
+            if (!res.ok) {
+                setErrors({form:data.message || "Login failed"});
+                return;
+            }
+// store token in local storage
+            localStorage.setItem('user',JSON.stringify(date.user));
+            navigate('/');
+        } 
+        // handle any errors
+        catch (err) {
+            setErrors({form:err.message});
+        }
+    })();
+}
+
+                // store token in local storage
+        
+        // 
