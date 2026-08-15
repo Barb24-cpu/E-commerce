@@ -60,7 +60,39 @@ const handleSubmit = (e) => {
             setErrors({form:err.message});
         }
     })();
-}
+};
+
+
+return (
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+        <div className="W-full max-w-md bg-white rounded-lg shadow-md p-8">
+            {/* Heading */}
+            <h2 className="text-2xl font-bold text-center mb-2">Buyer Login</h2>
+
+            <p className="text-gray-600 text-center mb-6">Welcome back!Please login to continue shopping.</p>
+
+            <form onSubmit={handleSubmit} className="space-y-4">
+                {errors.form &&(<p className="text-red-500 text-sm">{errors.form}</p>)}
+
+                {/* Email Field */}
+
+                <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        className={`w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6A00]"`}
+                    />
+                    {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+                </div>
+
+                
+            </form>
+        </div>
 
                 // store token in local storage
         
