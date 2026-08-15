@@ -32,7 +32,7 @@ const Home = () => {
     return (
         <div className="min-h-screen bg-gray-50 flex flex-col justify-between">
             <Navbar />
-            <Navbar />
+          
 
             <main className="flex-grow">
                 {/* Hero Section */}

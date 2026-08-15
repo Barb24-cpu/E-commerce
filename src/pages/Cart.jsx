@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import CartItem from '../components/CartItem';
+import Navbar from '../components/Navbar';
 
 function formatPrice(price) {
   return 'KSh ' + price.toLocaleString();
@@ -31,6 +32,8 @@ export default function Cart() {
   }
 
   return (
+    <>
+    <Navbar/>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
       {/* Page Header */}
       <div className="flex items-center justify-between mb-6">
@@ -86,5 +89,6 @@ export default function Cart() {
         </div>
       </div>
     </div>
+    </>
   );
 }
