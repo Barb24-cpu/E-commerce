@@ -35,3 +35,8 @@ const Register = () => {
         <h2 className="text-2xl font-bold text-center mb-4">Create Account</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div></div>
+{/*  */}
+                <label className="block text-gray-700 mb-1">Name</label>
+            <input value={name} onChange={(e) => setName(e.target.value)} className="w-full px-4 py-2 border rounded" />
+          </div>
+          <div></div>
