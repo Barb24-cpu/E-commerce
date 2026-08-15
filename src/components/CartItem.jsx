@@ -12,7 +12,7 @@ export default function CartItem({ item }) {
   return (
     <div className="flex gap-4 bg-white rounded-xl p-4 shadow-sm border border-gray-100">
       {/* Product image */}
-      <div className="w-24 h-24 sm:w-28 sm:h-28 bg-gray-100 rounded-lg flex-shrink-0 overflow-hidden">
+      <div className="w-24 h-24 z bg-gray-100 rounded-lg flex-shrink-0 overflow-hidden">
         <img
           src={item.image}
           alt={item.name}

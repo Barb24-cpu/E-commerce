@@ -3,6 +3,7 @@ import productsData from "../data/products.json";
 import ProductCard from "../components/ProductCard";
 import ProductFilters from "../components/ProductFilters";
 import EmptyProducts from "../components/EmptyProducts";
+import Navbar from "../components/Navbar";
 
 export default function Products() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -28,6 +29,8 @@ export default function Products() {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="max-w-7xl mx-auto px-4 py-6">
       <h1 className="text-2xl sm:text-3xl font-bold mb-6">
         Shop Products
@@ -56,5 +59,6 @@ export default function Products() {
         <EmptyProducts clearFilters={clearFilters} />
       )}
     </div>
+    </>
   );
 }
