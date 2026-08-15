@@ -115,7 +115,7 @@ export default function ProductCard({ product }) {
               ? "bg-gray-200 text-gray-400 cursor-not-allowed"
               : added
                 ? "bg-green-500 text-white"
-                : "bg-indigo-600 text-white hover:bg-indigo-700 active:scale-95"
+                : "bg-orange-600 text-white hover:bg-orange-700 active:scale-95"
           }`}
         >
           {isOutOfStock
