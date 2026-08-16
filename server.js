@@ -56,4 +56,19 @@ app.post('/api/register', (req, res) => {
 });
 
 
+app.post('/api/login', (req, res) => {
+  const { email, password } = req.body;
+  if (!email || !password) return res.status(400).json({ message: 'Email and password required' });
+
+  const users = readUsers();
+  const user = users.find((u) => u.email === email && u.password === password);
+  if (!user) return res.status(401).json({ message: 'Invalid credentials' });
+  
+
+  return res.json({ message: 'OK', user: { id: user.id, email: user.email, name: user.name } });
+});
+
+app.listen(PORT, () => {
+  console.log(Auth API listening on http://localhost:${PORT});
+});
 
