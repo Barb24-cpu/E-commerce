@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "name": "Essence Mascara Lash Princess",
+    "price": 2100,
+    "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/19/4919623/1.jpg?6716",
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "category": "Beauty",
+    "rating": 2.6,
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "name": "Eyeshadow Palette with Mirror",
+    "price": 2150,
+    "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/77/7004323/1.jpg?7737",
+    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+    "category": "Beauty",
+    "rating": 2.9,
+    "stock": 20
+  },
+  {
+    "id": 3,
+    "name": "Powder Canister",
+    "price": 2100,
+    "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/06/1240823/1.jpg?1825",
+    "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+    "category": "Beauty",
+    "rating": 4.6,
+    "stock": 100
+  },
+  {
+    "id": 4,
+    "name": "Red Lipstick",
+    "price": 1950,
+    "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/86/1485511/1.jpg?0254",
+    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+    "category": "Beauty",
+    "rating": 4.4,
+    "stock": 75
+  },
+  {
+    "id": 5,
+    "name": "Red Nail Polish",
+    "price": 2000,
+    "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/83/7297723/1.jpg?7309",
+    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+    "category": "Beauty",
+    "rating": 4.3,
+    "stock": 75
+  },
+  {
+    "id": 6,
+    "name": "Calvin Klein CK One",
+    "price": 4200,
+    "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/92/9535803/1.jpg?4118",
+    "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+    "category": "Beauty",
+    "rating": 4.4,
+    "stock": 20
+  },
+  {
+    "id": 7,
+    "name": "Chanel Coco Noir Eau De",
+    "price": 5050,
+    "image": "https://www.chanel.com/images/t_one/w_0.51,h_0.51,c_crop/q_auto:good,f_autoplus,fl_lossy,dpr_1.1/w_620/coco-noir-eau-de-parfum-spray-3-4fl-oz--packshot-default-113660-9564891283486.jpg",
+    "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+    "category": "Beauty",
+    "rating": 4.3,
+    "stock": 50
+  },
+  {
+    "id": 8,
+    "name": "Dior J'adore",
+    "price": 3750,
+    "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/19/3742303/1.jpg?3874",
+    "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+    "category": "Beauty",
+    "rating": 3.8,
+    "stock": 50
+  },
+  {
+    "id": 9,
+    "name": "Dolce Shine Eau de",
+    "price": 4050,
+    "image": "https://res.cloudinary.com/dioovnmjd/image/upload/w_960,h_960,f_auto,c_lfill/v1718870855/products/dolce-gabbana-dolce-shine-edp.webp",
+    "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+    "category": "Beauty",
+    "rating": 4.0,
+    "stock": 3
+  },
+  {
+    "id": 10,
+    "name": "Gucci Bloom Eau de",
+    "price": 3600,
+    "image": "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/28/481623/1.jpg?0337",
+    "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+    "category": "Beauty",
+    "rating": 2.7,
+    "stock": 150
+  },
+  {
+    "id": 11,
+    "name": "Annibale Colombo Bed",
+    "price": 15000,
+    "image": "https://www.bredaquaranta.it/public/prodotti_gallery/9473/annibale-colombo-donatello-29860-m.webp",
+    "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+    "category": "Home",
+    "rating": 4.8,
+    "stock": 50
+  },
+  {
+    "id": 12,
+    "name": "Annibale Colombo Sofa",
+    "price": 16400,
+    "image": "https://cgmood.com/storage/previews/02-2021/47883/47883.jpg",
+    "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+    "category": "Home",
+    "rating": 3.9,
+    "stock": 50
+  },
+  {
+    "id": 13,
+    "name": "Bedside Table African Cherry",
+    "price": 14050,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH4tnmQkZxFZ7bm1pNMLhtzNreZEDxIYYn1gskEKKmfw&s=10",
+    "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+    "category": "Home",
+    "rating": 2.9,
+    "stock": 50
+  },
+  {
+    "id": 14,
+    "name": "Knoll Saarinen Executive Conference Chair",
+    "price": 14900,
+    "image": "https://images.hermanmiller.group/asset/13d520ea-2641-4123-b60b-949cc62b58e1/W/DWR_2261_100290185_volo_black_aluminum_b.png?trim=auto&trim-sd=1&blend-mode=darken&blend=ffffff&bg=ffffff&auto=format&w=1000&q=70&h=1000&viewtype=hero",
+    "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+    "category": "Home",
+    "rating": 4.9,
+    "stock": 20
+  },
+  {
+    "id": 15,
+    "name": "Wooden Bathroom Sink With Mirror",
+    "price": 17100,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzCnqeWbKfCLDn90oZlB7lp8DhAK6DLi5nRlCU2y4p3w&s=10",
+    "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+    "category": "Home",
+    "rating": 3.6,
+    "stock": 8
+  },
+  {
+    "id": 16,
+    "name": "Apple",
+    "price": 2750,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcf5uND7ut8MiHnpG8_9z3332OyoywnPfvJKENxoke_89i6bLYMM22TnV2&s=10",
+    "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+    "category": "Home",
+    "rating": 4.2,
+    "stock": 5
+  },
+  {
+    "id": 17,
+    "name": "Beef Steak",
+    "price": 5850,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAXBJDS4ba4QQSydZk3BsAnPEuJVZJjsMsoK4daA2C0DD7lko-28ZEPKRV&s=10",
+    "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+    "category": "Home",
+    "rating": 4.5,
+    "stock": 75
+  },
+  {
+    "id": 18,
+    "name": "Cat Food",
+    "price": 5500,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDaS-rcRBNKX67nZGVfykjc451WN_GQmK-3cSbfhZtcsU701xy5Y6Y7iUG&s=10",
+    "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+    "category": "Home",
+    "rating": 3.1,
+    "stock": 45
+  },
+  {
+    "id": 19,
+    "name": "Chicken Meat",
+    "price": 6450,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc6piEU3H-Q2zmfPJwCMGC_kh0dn4cKhubzHyl_9mujEadoMO8XCyT_iI&s=10",
+    "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+    "category": "Home",
+    "rating": 3.2,
+    "stock": 150
+  },
+  {
+    "id": 20,
+    "name": "Cooking Oil",
+    "price": 2800,
+    "image": "https://res.cloudinary.com/duem0gxw3/image/upload/f_auto,q_75,w_1080,c_limit,dpr_auto/v1781702063/shops/urbanpure-store/product/urbanpure-store-product-2aa55c3a74074b2c99b102c92b7f84c6.jpg",
+    "description": "Versatile cooking oil suitable for frying, saut\u00e9ing, and various culinary applications.",
+    "category": "Home",
+    "rating": 4.8,
+    "stock": 8
+  },
+  {
+    "id": 21,
+    "name": "Cucumber",
+    "price": 2950,
+    "image": "https://www.eastwestseed.com/wp-content/uploads/2024/11/33133-Daewy-F1.jpg",
+    "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+    "category": "Home",
+    "rating": 4.1,
+    "stock": 150
+  },
+  {
+    "id": 22,
+    "name": "Dog Food",
+    "price": 6400,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/35801/1784210403/35801_main.jpg?im=Resize=376",
+    "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
+    "category": "Home",
+    "rating": 4.5,
+    "stock": 100
+  },
+  {
+    "id": 23,
+    "name": "Eggs",
+    "price": 2550,
+    "image": "https://www.southernliving.com/thmb/7Pg9J4Q0dyVevZtiq-3p2GnohQA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Eggs_002_preview-8d532a48790b4a5190e513de08678e7f.jpg",
+    "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+    "category": "Home",
+    "rating": 2.5,
+    "stock": 5
+  },
+  {
+    "id": 24,
+    "name": "Fish Steak",
+    "price": 6050,
+    "image": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_78e1b721-4199-4918-ac80-0ba3101afa41.jpg",
+    "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
+    "category": "Home",
+    "rating": 3.8,
+    "stock": 75
+  },
+  {
+    "id": 25,
+    "name": "Green Bell Pepper",
+    "price": 3050,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXebKamN9rzlhJYJJmWu8Glzqlxbp_1kW2CuZKJ9bVpln8jKgDTE1MfBGY&s=10",
+    "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+    "category": "Home",
+    "rating": 3.2,
+    "stock": 45
+  },
+  {
+    "id": 26,
+    "name": "Green Chili Pepper",
+    "price": 2550,
+    "image": "https://zucchini.co.ke/cdn/shop/files/bullet_chilli-green_500x500_99760e98-c14e-4c6f-b7a5-5fb6b6b0e3de.jpg?v=1754659445&width=480",
+    "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
+    "category": "Home",
+    "rating": 3.7,
+    "stock": 2
+  },
+  {
+    "id": 27,
+    "name": "Honey Jar",
+    "price": 3800,
+    "image": "https://www.allrecipes.com/thmb/XQQuaE-wzwEkZ7GPyC02ukDCiFk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7.GettyImages-1068390386-44a0464a446942668d3a759c413a464a.jpg",
+    "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
+    "category": "Home",
+    "rating": 4.0,
+    "stock": 30
+  },
+  {
+    "id": 28,
+    "name": "Ice Cream",
+    "price": 3100,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXq8rfoGb3Vmb1cx5klLiiOULtY-XhZa8eWIofyVfOy9wlLXzD5czNeyw&s=10",
+    "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+    "category": "Home",
+    "rating": 3.4,
+    "stock": 30
+  },
+  {
+    "id": 29,
+    "name": "Juice",
+    "price": 3050,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ22A3eZLU0A_9xjrmRRvUELc-QoB5jMefUK96_HedkTdITHdO5ZutDc7E&s=10",
+    "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+    "category": "Home",
+    "rating": 3.9,
+    "stock": 75
+  },
+  {
+    "id": 30,
+    "name": "Kiwi",
+    "price": 2800,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_OAz6vhsmQZImQSYys3LdRnsdqyZic0_sDUjd6MEFAQ&s=10",
+    "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+    "category": "Home",
+    "rating": 4.9,
+    "stock": 75
+  },
+  {
+    "id": 31,
+    "name": "Lemon",
+    "price": 2950,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYZNkDFlIPlW6yxFO4drTIVCnfnZkJ_J_RoFWKiX-pg&s=10",
+    "description": "Zesty and tangy lemons, versatile for cooking, baking, or making refreshing beverages.",
+    "category": "Home",
+    "rating": 3.5,
+    "stock": 30
+  },
+  {
+    "id": 32,
+    "name": "Milk",
+    "price": 2900,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq2LFuUUYi5wXGEknfU8s1qmOCLy08N-tYVx2KnV4jgJ0XdZpI1ehSZj8&s=10",
+    "description": "Fresh and nutritious milk, a staple for various recipes and daily consumption.",
+    "category": "Home",
+    "rating": 2.6,
+    "stock": 20
+  },
+  {
+    "id": 33,
+    "name": "Mulberry",
+    "price": 3350,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrIQESMB7emiGjFKw209_XLlwl0ioU6wV0PNbl6wLut6gevSHsD63IynM&s=10",
+    "description": "Sweet and juicy mulberries, perfect for snacking or adding to desserts and cereals.",
+    "category": "Home",
+    "rating": 5.0,
+    "stock": 50
+  },
+  {
+    "id": 34,
+    "name": "Nescafe Coffee",
+    "price": 5550,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt85ywUKDoYLUytttTePQTslmH4rjFryFVYB7u0BimBQ&s",
+    "description": "Quality coffee from Nescafe, available in various blends for a rich and satisfying cup.",
+    "category": "Home",
+    "rating": 4.8,
+    "stock": 150
+  },
+  {
+    "id": 35,
+    "name": "Potatoes",
+    "price": 2600,
+    "image": "https://hsph.harvard.edu/wp-content/uploads/2024/06/potatoes-1200x800-1.jpg",
+    "description": "Versatile and starchy potatoes, great for roasting, mashing, or as a side dish.",
+    "category": "Home",
+    "rating": 4.8,
+    "stock": 5
+  },
+  {
+    "id": 36,
+    "name": "Apple MacBook Pro 14 Inch Space Grey",
+    "price": 41600,
+    "image": "https://macfinder.co.uk/wp-content/uploads/2022/12/img-MacBook-Pro-Retina-14-Inch-72383-scaled-1250x1250.jpg",
+    "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+    "category": "Electronics",
+    "rating": 3.6,
+    "stock": 30
+  },
+  {
+    "id": 37,
+    "name": "Asus Zenbook Pro Dual Screen Laptop",
+    "price": 45000,
+    "image": "https://www.almiriatechstore.co.ke/wp-content/uploads/2023/05/ze56c4_1_ecommerce_562e.jpg",
+    "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+    "category": "Electronics",
+    "rating": 4.0,
+    "stock": 30
+  },
+  {
+    "id": 38,
+    "name": "Huawei Matebook X Pro",
+    "price": 42400,
+    "image": "https://mtunda.com/cdn/shop/files/61dx5YV5FOL_942d4388-3d2b-4e63-b06f-01d51133116d.jpg?v=1761833145&width=1445",
+    "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+    "category": "Electronics",
+    "rating": 5.0,
+    "stock": 100
+  },
+  {
+    "id": 39,
+    "name": "Lenovo Yoga 920",
+    "price": 45000,
+    "image": "https://microless.com/cdn/products/4f0930bb61216a68f563bdd5b802158f-hi.jpg",
+    "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+    "category": "Electronics",
+    "rating": 2.9,
+    "stock": 20
+  },
+  {
+    "id": 40,
+    "name": "New DELL XPS 13 9300 Laptop",
+    "price": 41900,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTqyBvZH1rpHBG4k6VQ4o4Wm6YeZvKU5cRwJ28Kqn6RUEZ9-OyNUP4Tkg7&s=10",
+    "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+    "category": "Electronics",
+    "rating": 2.7,
+    "stock": 150
+  },
+  {
+    "id": 41,
+    "name": "Blue & Black Check Shirt",
+    "price": 3600,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRMU6UFAyVu3-JOnYkumxZbODxqZdpR7W_jReO1j1W0Q&s=10",
+    "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+    "category": "Clothing",
+    "rating": 3.6,
+    "stock": 45
+  },
+  {
+    "id": 42,
+    "name": "Gigabyte Aorus Men Tshirt",
+    "price": 2700,
+    "image": "https://i.pinimg.com/736x/06/75/7b/06757b2b3ab156ae280846bf0b7a30d0.jpg",
+    "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
+    "category": "Clothing",
+    "rating": 3.2,
+    "stock": 50
+  },
+  {
+    "id": 43,
+    "name": "Man Plaid Shirt",
+    "price": 3350,
+    "image": "https://i5.walmartimages.com/seo/ZCFZJW-Mens-Plaid-Flannel-Shirts-Long-Sleeve-Flannel-Shirt-for-Men-Casual-Button-Down-Brushed-Soft-Cotton-Shirt-Regular-Fit-with-Pockets-Red-M_2d71293c-7b40-4bce-9114-8ed3018fd3d1.5f979404974e0cd306286b171d922fce.jpeg",
+    "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+    "category": "Clothing",
+    "rating": 3.5,
+    "stock": 150
+  },
+  {
+    "id": 44,
+    "name": "Man Short Sleeve Shirt",
+    "price": 2700,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqdhpmGWvQ_FW_nBwiqhNZ_o21hRGQS7fmSUvc0UGanrEbAKgVP9Gnxo0&s=10",
+    "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
+    "category": "Clothing",
+    "rating": 2.9,
+    "stock": 0
+  },
+  {
+    "id": 45,
+    "name": "Men Check Shirt",
+    "price": 2900,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQOlGGZn9ppWlwfxm_UizXO5G05t5C2Wl5tqyRTb8rpQSsZUG9gKVJE-w&s=10",
+    "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
+    "category": "Clothing",
+    "rating": 2.7,
+    "stock": 100
+  },
+  {
+    "id": 46,
+    "name": "Nike Air Jordan 1 Red And Black",
+    "price": 9450,
+    "image": "https://i.ebayimg.com/images/g/mw4AAOSw-2JhvrjU/s-l1200.jpg",
+    "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
+    "category": "Shoes",
+    "rating": 4.8,
+    "stock": 12
+  },
+  {
+    "id": 47,
+    "name": "Nike Baseball Cleats",
+    "price": 8150,
+    "image": "https://homerunsports.com/cdn/shop/files/AURORA_II7347-001_PHSLH001-2000.jpg?v=1769803094&width=1300",
+    "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+    "category": "Shoes",
+    "rating": 3.9,
+    "stock": 8
+  },
+  {
+    "id": 48,
+    "name": "Puma Future Rider Trainers",
+    "price": 8800,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStUcYWeXLn4ScARSzxnUtny6W0YBXlIBoxtTHPbER5ZyeZVU8rFLUk8Q3V&s=10",
+    "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
+    "category": "Shoes",
+    "rating": 4.9,
+    "stock": 50
+  },
+  {
+    "id": 49,
+    "name": "Sports Sneakers Off White & Red",
+    "price": 10250,
+    "image": "https://preview.free3d.com/img/2023/02/3190264890791036906/39jwx6ns.jpg",
+    "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic ...",
+    "category": "Shoes",
+    "rating": 4.8,
+    "stock": 5
+  },
+  {
+    "id": 50,
+    "name": "Sports Sneakers Off White Black",
+    "price": 9300,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxMGZ8veDRZbo5W6U4ig_55STwdk9RhjDf9uvBNwvave8emyKlCeHmk0w&s=10",
+    "description": "Another variant of the Sports Sneakers in Off White Black, featuring a unique design. These sneakers offer style and comfort for casual occasions.",
+    "category": "Shoes",
+    "rating": 4.7,
+    "stock": 75
+  },
+  {
+    "id": 51,
+    "name": "Brown Leather Belt Watch",
+    "price": 8850,
+    "image": "https://mockberg.eu/cdn/shop/files/Timelessleatherbrowngold1-original_1369211_1c1a5f79-cdd2-40ed-bf45-2307183366d1.jpg?v=1783357699",
+    "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
+    "category": "Accessories",
+    "rating": 4.2,
+    "stock": 30
+  },
+  {
+    "id": 52,
+    "name": "Longines Master Collection",
+    "price": 10000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkzdpNL5TXC4MXdMUtT5UKDvpuQgpOQye8kOWBA_xN9w&s=10",
+    "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
+    "category": "Accessories",
+    "rating": 3.9,
+    "stock": 50
+  },
+  {
+    "id": 53,
+    "name": "Rolex Cellini Date Black Dial",
+    "price": 10150,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF4u-1Qtit8qBp0YBVNl0LZRJ0M3EUp-OwyR_-AHMj9-8MIJj69XrekUB0&s=10",
+    "description": "The Rolex Cellini Date with Black Dial is a classic and prestigious watch. With a black dial and date complication, it exudes sophistication and is a symbol of Rolex's heritage.",
+    "category": "Accessories",
+    "rating": 5.0,
+    "stock": 20
+  },
+  {
+    "id": 54,
+    "name": "Rolex Cellini Moonphase",
+    "price": 12000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShGtRoViChjraGZvliJrk88cGlng1ZM89E88Upj1sZwwNvcJ37cOuruakU&s=10",
+    "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+    "category": "Accessories",
+    "rating": 2.6,
+    "stock": 20
+  },
+  {
+    "id": 55,
+    "name": "Rolex Datejust",
+    "price": 11400,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmMpsaDcyqcbG2O0po_n0IMEnLrETvf1TBk0JtFTTnRw&s=10",
+    "description": "The Rolex Datejust is an iconic and versatile timepiece with a date window. Known for its timeless design and reliability, it's a symbol of Rolex's watchmaking excellence.",
+    "category": "Accessories",
+    "rating": 3.7,
+    "stock": 150
+  },
+  {
+    "id": 56,
+    "name": "Rolex Submariner Watch",
+    "price": 11300,
+    "image": "https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_1920/v1775305300/rolexcom/094398bf1f99/navigation/professional-watches-submariner-navigation-portrait",
+    "description": "The Rolex Submariner is a legendary dive watch with a rich history. Known for its durability and water resistance, it's a symbol of adventure and exploration.",
+    "category": "Accessories",
+    "rating": 2.7,
+    "stock": 100
+  },
+  {
+    "id": 57,
+    "name": "Amazon Echo Plus",
+    "price": 31500,
+    "image": "https://cellularkenya.co.ke/wp-content/uploads/2022/05/amazon_b0794w1skp_echo_plus_2nd_generation_1437070-e1627045998800.jpeg",
+    "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+    "category": "Electronics",
+    "rating": 5.0,
+    "stock": 150
+  },
+  {
+    "id": 58,
+    "name": "Apple Airpods",
+    "price": 39200,
+    "image": "https://ropemphones.co.ke/wp-content/uploads/2026/06/Apple-AirPods-Pro-3.webp",
+    "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+    "category": "Electronics",
+    "rating": 4.2,
+    "stock": 100
+  },
+  {
+    "id": 59,
+    "name": "Apple AirPods Max Silver",
+    "price": 36800,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWBXUAeXPlK6UiFgVj-6VBO-aKHImN_ispd6loACtVEAqqL4LlM-6-Eg&s=10",
+    "description": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
+    "category": "Electronics",
+    "rating": 3.5,
+    "stock": 75
+  },
+  {
+    "id": 60,
+    "name": "Apple Airpower Wireless Charger",
+    "price": 32600,
+    "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/01/14/12/apple-airpower-wireless-charger-iphone.jpg",
+    "description": "The Apple AirPower Wireless Charger provides a convenient way to charge your compatible Apple devices wirelessly. Simply place your devices on the charging mat for effortless charging.",
+    "category": "Electronics",
+    "rating": 3.7,
+    "stock": 2
+  },
+  {
+    "id": 61,
+    "name": "Apple HomePod Mini Cosmic Grey",
+    "price": 40100,
+    "image": "https://assets.mofoprod.net/network/images/Apple-HomePod_Mini.original_t1rYIvk.jpg",
+    "description": "The Apple HomePod Mini in Cosmic Grey is a compact smart speaker that delivers impressive audio and integrates seamlessly with the Apple ecosystem for a smart home experience.",
+    "category": "Electronics",
+    "rating": 4.6,
+    "stock": 30
+  },
+  {
+    "id": 62,
+    "name": "Apple iPhone Charger",
+    "price": 20000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAT8Gcjc50LwXp1uKmgBAFaZhcWrzkmj56nkXeBi4VrsJz6U0KwHSWEVg&s=10",
+    "description": "The Apple iPhone Charger is a high-quality charger designed for fast and efficient charging of your iPhone. Ensure your device stays powered up and ready to go.",
+    "category": "Electronics",
+    "rating": 4.2,
+    "stock": 20
+  },
+  {
+    "id": 63,
+    "name": "Apple MagSafe Battery Pack",
+    "price": 35550,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMxggowEjwFl7GIekx-wPoQT1g0G8zCcpLgkAV683pU2g1_jT-HKnzivE&s=10",
+    "description": "The Apple MagSafe Battery Pack is a portable and convenient way to add extra battery life to your MagSafe-compatible iPhone. Attach it magnetically for a secure connection.",
+    "category": "Electronics",
+    "rating": 3.6,
+    "stock": 3
+  },
+  {
+    "id": 64,
+    "name": "Apple Watch Series 4 Gold",
+    "price": 43200,
+    "image": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_fire_09122018_carousel.jpg.large.jpg",
+    "description": "The Apple Watch Series 4 in Gold is a stylish and advanced smartwatch with features like heart rate monitoring, fitness tracking, and a beautiful Retina display.",
+    "category": "Electronics",
+    "rating": 2.7,
+    "stock": 30
+  },
+  {
+    "id": 65,
+    "name": "Beats Flex Wireless Earphones",
+    "price": 35400,
+    "image": "https://www.digitalstore.co.ke/cdn/shop/products/3_475e0244-8f29-4987-af4b-fdae0abeb86a.jpg?v=1671428570",
+    "description": "The Beats Flex Wireless Earphones offer a comfortable and versatile audio experience. With magnetic earbuds and up to 12 hours of battery life, they are ideal for everyday use.",
+    "category": "Electronics",
+    "rating": 4.2,
+    "stock": 50
+  },
+  {
+    "id": 66,
+    "name": "iPhone 12 Silicone Case with MagSafe Plum",
+    "price": 25450,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiscXm3XdxI2cTYJ1gdlZC_vwa4Brj8AogY474uBJXyz2zOklNAkGwbu8&s=10",
+    "description": "The iPhone 12 Silicone Case with MagSafe in Plum is a stylish and protective case designed for the iPhone 12. It features MagSafe technology for easy attachment of accessories.",
+    "category": "Electronics",
+    "rating": 3.6,
+    "stock": 75
+  },
+  {
+    "id": 67,
+    "name": "Monopod",
+    "price": 17650,
+    "image": "https://i0.wp.com/camerastoreke.co.ke/wp-content/uploads/2022/03/51YVc8kC1PL._SL1000_.jpg?fit=1000%2C1000&ssl=1",
+    "description": "The Monopod is a versatile camera accessory for stable and adjustable shooting. Perfect for capturing selfies, group photos, and videos with ease.",
+    "category": "Electronics",
+    "rating": 4.4,
+    "stock": 45
+  },
+  {
+    "id": 68,
+    "name": "Selfie Lamp with iPhone",
+    "price": 14650,
+    "image": "https://m.media-amazon.com/images/I/61EmEQA35zL._AC_UF1000,1000_QL80_.jpg",
+    "description": "The Selfie Lamp with iPhone is a portable and adjustable LED light designed to enhance your selfies and video calls. Attach it to your iPhone for well-lit photos.",
+    "category": "Electronics",
+    "rating": 3.5,
+    "stock": 75
+  },
+  {
+    "id": 69,
+    "name": "Selfie Stick Monopod",
+    "price": 15300,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOzBIBwVJQHIcx2hzU2sCYZ4fCwavZxnnvmLDIKdOXv-cqJreN-Fi214&s=10",
+    "description": "The Selfie Stick Monopod is a extendable and foldable device for capturing the perfect selfie or group photo. Compatible with smartphones and cameras.",
+    "category": "Electronics",
+    "rating": 3.9,
+    "stock": 8
+  },
+  {
+    "id": 70,
+    "name": "TV Studio Camera Pedestal",
+    "price": 38100,
+    "image": "https://p.turbosquid.com/ts-thumb/nd/v7tVvd/TDbMvvo0/tvstudiocamerapedestalvray3dmodel01/jpg/1471268763/1920x1080/fit_q87/8ed6f5dbc1d10e2a110ff56454a1e860424a49bc/tvstudiocamerapedestalvray3dmodel01.jpg",
+    "description": "The TV Studio Camera Pedestal is a professional-grade camera support system for smooth and precise camera movements in a studio setting. Ideal for broadcast and production.",
+    "category": "Electronics",
+    "rating": 2.8,
+    "stock": 15
+  }
+]
