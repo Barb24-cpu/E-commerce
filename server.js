@@ -20,3 +20,20 @@ const usersFile = path.join(dataDir, 'users.json');
 // create the data directory and users.json file if they don't exist
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir);
 if (!fs.existsSync(usersFile)) fs.writeFileSync(usersFile, JSON.stringify([]));
+
+
+// function to read users from the users.json file
+const readUsers = () => {
+  try {
+    const raw = fs.readFileSync(usersFile, 'utf-8');
+    return JSON.parse(raw || '[]');
+  } catch (err) {
+    return [];
+  }
+}
+// writing users to json file
+const writeUsers = (users) => {
+  fs.writeFileSync(usersFile, JSON.stringify(users, null, 2));
+};
+
+
