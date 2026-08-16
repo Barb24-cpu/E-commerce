@@ -14,7 +14,7 @@ function formatDate(dateString) {
 }
 
 export default function OrderCard({ order }) {
-  // Status badge color
+ 
   const statusColors = {
     Processing: 'bg-yellow-100 text-yellow-700',
     Shipped: 'bg-blue-100 text-blue-700',
@@ -25,7 +25,7 @@ export default function OrderCard({ order }) {
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5 sm:p-6">
-      {/* Order Header */}
+     
       <div className="flex flex-wrap items-center justify-between gap-2 mb-4 pb-4 border-b border-gray-100">
         <div>
           <h3 className="font-bold text-gray-800">Order #{order.orderNumber}</h3>
@@ -35,8 +35,6 @@ export default function OrderCard({ order }) {
           {order.status}
         </span>
       </div>
-
-      {/* Products list */}
       <div className="space-y-2 mb-4">
         {order.products.map((item, index) => (
           <div key={index} className="flex justify-between text-sm">
@@ -49,8 +47,6 @@ export default function OrderCard({ order }) {
           </div>
         ))}
       </div>
-
-      {/* Totals */}
       <div className="border-t border-gray-100 pt-3 space-y-1 text-sm">
         <div className="flex justify-between text-gray-600">
           <span>Subtotal</span>
@@ -65,8 +61,6 @@ export default function OrderCard({ order }) {
           <span>{formatPrice(order.total)}</span>
         </div>
       </div>
-
-      {/* Payment & Delivery Info */}
       <div className="mt-4 pt-4 border-t border-gray-100 space-y-1 text-sm text-gray-600">
         <p>💳 Payment: <span className="font-medium text-gray-800">{order.paymentMethod}</span></p>
         <p>🚚 Delivery: <span className="font-medium text-gray-800">{order.deliveryMethod}</span></p>
