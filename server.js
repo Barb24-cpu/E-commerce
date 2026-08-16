@@ -36,4 +36,24 @@ const writeUsers = (users) => {
   fs.writeFileSync(usersFile, JSON.stringify(users, null, 2));
 };
 
+// API endpoint for user registration
+app.post('/api/register', (req, res) => {
+  const { email, password, name } = req.body;
+  if (!email || !password) return res.status(400).json({ message: 'Email and password required' });
+
+//   create a new user object with a unique id
+    const users = readUsers();
+  const exists = users.find((u) => u.email === email);
+  if (exists) return res.status(409).json({ message: 'User already exists' });
+
+//   unique id generated using date.now
+
+   const user = { id: Date.now(), email, password, name: name || '' };
+  users.push(user);
+  writeUsers(users);
+
+    return res.status(201).json({ message: 'Registered', user: { id: user.id, email: user.email, name: user.name } });
+});
+
+
 
