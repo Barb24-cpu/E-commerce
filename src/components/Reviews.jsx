@@ -20,7 +20,7 @@ const Reviews = ({ reviews }) => {
                   key={review.id}
                   className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white"
                 >
-                  {/* Rating Stars */}
+                
                   <div className="flex mb-4">
                     {Array.from({ length: review.rating }).map((_, index) => (
                       <span

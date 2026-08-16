@@ -2,12 +2,9 @@ import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import { useState } from "react";
 
-// Helper: format price in KSh
 function formatPrice(price) {
   return "KSh " + price.toLocaleString();
 }
-
-// Helper: get stock label and style
 function getStockInfo(stock) {
   if (stock === 0)
     return { label: "OUT OF STOCK", color: "bg-red-100 text-red-700" };
@@ -21,8 +18,6 @@ function getStockInfo(stock) {
     return { label: "In Stock", color: "bg-green-100 text-green-700" };
   return { label: "In Stock", color: "bg-green-100 text-green-700" };
 }
-
-// Helper: render star rating
 function renderStars(rating) {
   const full = Math.floor(rating);
 
@@ -48,7 +43,7 @@ export default function ProductCard({ product }) {
     <>
     
     <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300 overflow-hidden border border-gray-100 flex flex-col">
-      {/* Product Image - clickable */}
+    
       <Link to={`/products/${product.id}`} className="block">
         <div className="aspect-square bg-gray-100 relative overflow-hidden">
           <img
@@ -61,7 +56,7 @@ export default function ProductCard({ product }) {
                 '<div class="flex items-center justify-center w-full h-full text-gray-400 text-5xl">📦</div>';
             }}
           />
-          {/* Out of stock overlay */}
+        
           {isOutOfStock && (
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
               <span className="bg-red-600 text-white px-4 py-2 rounded-lg font-bold text-sm">
@@ -71,42 +66,30 @@ export default function ProductCard({ product }) {
           )}
         </div>
       </Link>
-
-      {/* Card Body */}
       <div className="p-4 flex flex-col flex-1">
-        {/* Category badge */}
+        
         <span className="text-xs font-medium text-indigo-600 bg-indigo-50 px-2 py-1 rounded-full w-fit mb-2">
           {product.category}
         </span>
-
-        {/* Product name - clickable */}
         <Link to={`/products/${product.id}`}>
           <h3 className="font-semibold text-gray-800 hover:text-indigo-600 transition-colors line-clamp-2 mb-1">
             {product.name}
           </h3>
         </Link>
-
-        {/* Rating */}
         <div className="flex items-center gap-1 mb-2">
           <span className="text-yellow-500 text-sm">
             {renderStars(product.rating)}
           </span>
           <span className="text-xs text-gray-500">{product.rating}</span>
         </div>
-
-        {/* Price */}
         <p className="text-lg font-bold text-gray-900 mb-2">
           {formatPrice(product.price)}
         </p>
-
-        {/* Stock status */}
         <span
           className={`text-xs font-semibold px-2 py-1 rounded-full w-fit mb-3 ${stockInfo.color}`}
         >
           {stockInfo.label}
         </span>
-
-        {/* Add to Cart button */}
         <button
           onClick={handleAddToCart}
           disabled={isOutOfStock}

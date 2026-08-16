@@ -6,7 +6,6 @@ import Features from '../components/Features';
 import Reviews from '../components/Reviews';
 
 const Home = () => {
-    // Reviews state
     const [reviews] = useState([
         {
             id: 1,
