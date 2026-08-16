@@ -16,17 +16,17 @@ const Reviews = ({ reviews }) => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {reviews.map((review) => (
-                <div
+                <div>
                   key={review.id}
                   className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white"
                 >
-                
+                  {/* Rating Stars */}
                   <div className="flex mb-4">
                     {Array.from({ length: review.rating }).map((_, index) => (
-                      <span
+                      <span>
                         key={index}
                         className="text-[#FF6A00] text-xl mr-1"
-                      >
+                      
                         ★
                       </span>
                     ))}
