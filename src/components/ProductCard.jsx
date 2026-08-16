@@ -25,9 +25,9 @@ function getStockInfo(stock) {
 // Helper: render star rating
 function renderStars(rating) {
   const full = Math.floor(rating);
-  const half = rating % 1 >= 0.5 ? 1 : 0;
-  const empty = 5 - full - half;
-  return "★".repeat(full) + (half ? "☆" : "") + "☆".repeat(empty);
+
+  const empty = 5 - full 
+  return "★".repeat(full)   + "☆".repeat(empty);
 }
 
 export default function ProductCard({ product }) {
