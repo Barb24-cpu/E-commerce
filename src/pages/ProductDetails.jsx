@@ -25,7 +25,7 @@ export default function ProductDetails() {
         <div className="text-center py-16">
           <h2 className="text-xl">Product not found</h2>
           <Link to="/products" className="text-indigo-600">
-            Back to Products
+           🔙 Back 
           </Link>
         </div>
       </>
