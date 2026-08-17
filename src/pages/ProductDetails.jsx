@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
 import productsData from "../data/products.json";
 import { useCart } from "../context/CartContext";
-import Navbar from "../tests/Navbar";
+import Navbar from "../components/Navbar";
 import ProductImage from "../components/ProductImage";
 import ProductInfo from "../components/ProductInfo";
 import QuantitySelector from "../components/QuantitySelector";
@@ -25,7 +25,7 @@ export default function ProductDetails() {
         <div className="text-center py-16">
           <h2 className="text-xl">Product not found</h2>
           <Link to="/products" className="text-indigo-600">
-            Back to Products
+           🔙 Back
           </Link>
         </div>
       </>

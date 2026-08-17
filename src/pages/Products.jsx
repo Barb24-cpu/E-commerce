@@ -3,7 +3,7 @@ import productsData from "../data/products.json";
 import ProductCard from "../components/ProductCard";
 import ProductFilters from "../components/ProductFilters";
 import EmptyProducts from "../components/EmptyProducts";
-import Navbar from "../tests/Navbar";
+import Navbar from "../components/Navbar";
 
 export default function Products() {
   const [searchQuery, setSearchQuery] = useState("");

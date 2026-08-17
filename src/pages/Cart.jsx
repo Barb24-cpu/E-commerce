@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import CartItem from '../components/CartItem';
-import Navbar from '../tests/Navbar';
+import Navbar from '../components/Navbar';
 
 function formatPrice(price) {
   return 'KSh ' + price.toLocaleString();
