@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
+import { useAuth } from "../context/AuthContext";
 import Navbar from "../components/Navbar";
 import EmptyCart from "../components/checkout/EmptyCart";
 import CheckoutHeader from "../components/checkout/CheckoutHeader";
@@ -14,7 +15,9 @@ const locations = ["Main Store - Nairobi CBD", "Westlands Branch", "Karen Branch
 
 export default function Checkout() {
   const { cartItems, cartSubtotal, clearCart } = useCart();
+  const { user, isAuthenticated, loading } = useAuth();
   const navigate = useNavigate();
+
   const [form, setForm] = useState({
     fullName: "", email: "", phone: "", deliveryMethod: "",
     address: "", city: "", country: "", pickupLocation: "", paymentMethod: ""
@@ -22,6 +25,26 @@ export default function Checkout() {
   const [errors, setErrors] = useState({});
   const [isPlacing, setIsPlacing] = useState(false);
 
+  // Redirect to login if not authenticated (wait for auth to finish loading)
+  useEffect(() => {
+    if (!loading && !isAuthenticated) {
+      navigate("/login", { replace: true });
+    }
+  }, [loading, isAuthenticated, navigate]);
+
+  // Pre-fill from logged-in user
+  useEffect(() => {
+    if (user) {
+      setForm((prev) => ({
+        ...prev,
+        fullName: user.name || prev.fullName,
+        email: user.email || prev.email,
+      }));
+    }
+  }, [user]);
+
+  if (loading) return null;
+  if (!isAuthenticated) return null;
   if (!cartItems.length) return <EmptyCart />;
 
   const update = (field) => (value) => setForm({ ...form, [field]: value });
