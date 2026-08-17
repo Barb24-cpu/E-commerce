@@ -9,12 +9,9 @@ function formatPrice(price) {
 
 export default function Cart() {
   const { cartItems, cartSubtotal, clearCart } = useCart();
-
-  // Shipping cost (default for home delivery)
   const shipping = cartSubtotal > 0 ? 300 : 0;
   const total = cartSubtotal + shipping;
 
-  // Empty cart state
   if (cartItems.length === 0) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-16 text-center">
@@ -35,7 +32,7 @@ export default function Cart() {
     <>
     <Navbar/>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      {/* Page Header */}
+    
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">Shopping Cart</h1>
         <button
@@ -47,14 +44,14 @@ export default function Cart() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Cart Items */}
+       
         <div className="lg:col-span-2 space-y-4">
           {cartItems.map((item) => (
             <CartItem key={item.id} item={item} />
           ))}
         </div>
 
-        {/* Cart Summary */}
+      
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 h-fit lg:sticky lg:top-24">
           <h2 className="text-lg font-bold text-gray-900 mb-4">Order Summary</h2>
 

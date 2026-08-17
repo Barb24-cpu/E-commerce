@@ -10,8 +10,7 @@ export default function CartItem({ item }) {
   const isAtMaxStock = item.quantity >= maxStock;
 
   return (
-    <div className="flex gap-4 bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-      {/* Product image */}
+    <div className="flex gap-4 bg-white rounded-xl p-4 shadow-sm border border-gray-100">     
       <div className="w-24 h-24 z bg-gray-100 rounded-lg flex-shrink-0 overflow-hidden">
         <img
           src={item.image}
@@ -23,13 +22,10 @@ export default function CartItem({ item }) {
           }}
         />
       </div>
-
-      {/* Product details */}
       <div className="flex-1 min-w-0">
         <h3 className="font-semibold text-gray-800 text-sm sm:text-base truncate">{item.name}</h3>
         <p className="text-indigo-600 font-bold mt-1">{formatPrice(item.price)}</p>
 
-        {/* Quantity controls */}
         <div className="flex items-center gap-3 mt-2">
           <button
             onClick={() => decreaseQuantity(item.id)}
@@ -50,13 +46,9 @@ export default function CartItem({ item }) {
             +
           </button>
         </div>
-
-        {/* Item total */}
         <p className="text-gray-600 text-sm mt-1">
           Total: <span className="font-bold text-gray-900">{formatPrice(item.price * item.quantity)}</span>
         </p>
-
-        {/* Remove button */}
         <button
           onClick={() => removeFromCart(item.id)}
           className="text-red-500 hover:text-red-700 text-sm font-medium mt-2 transition-colors"

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1786798286939,
+    "email": "test@example.com",
+    "password": "secret",
+    "name": "Test User"
+  },
+  {
+    "id": 1786899168870,
+    "email": "peter.nganga4@student.moringaschool.com",
+    "password": "4682peter",
+    "name": "nganga"
+  }
+]
