@@ -1,8 +1,8 @@
 import  { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../components/Navbar';
+import Navbar from '../tests/Navbar';
 import Footer from '../components/Footer';
-import Features from '../components/Features';
+import Features from '../tests/Features';
 import Reviews from '../components/Reviews';
 
 const Home = () => {

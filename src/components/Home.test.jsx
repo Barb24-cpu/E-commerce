@@ -4,9 +4,10 @@ import { MemoryRouter } from 'react-router-dom';
 import { describe, it, expect, vi } from 'vitest';
 import App from '../App';
 
-// Mock child components to isolate router testing
+// Mock child pages to isolate route testing
 vi.mock('../pages/Home', () => ({ default: () => <div>Home Component</div> }));
 vi.mock('../pages/Login', () => ({ default: () => <div>Login Component</div> }));
+vi.mock('../pages/Products', () => ({ default: () => <div>Products Component</div> })); // Add this line
 
 describe('App Routing', () => {
   it('renders Home component on default route ("/")', () => {

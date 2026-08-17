@@ -2,9 +2,9 @@ import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { describe, it, expect, vi } from 'vitest';
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 
-// Mock context hook if Navbar uses cart or auth context
+// Mock context hook from src/context/CartContext
 vi.mock('../context/CartContext', () => ({
   useCart: () => ({ cart: [], cartCount: 0 }),
 }));
@@ -17,7 +17,7 @@ describe('Navbar Component', () => {
       </MemoryRouter>
     );
 
-    // Verifies rendering by checking for common links
+    // Verifies rendering by checking for navigation role
     expect(screen.getByRole('navigation')).toBeInTheDocument();
   });
 });

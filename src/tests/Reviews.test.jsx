@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
-import Reviews from './Reviews';
+import Reviews from '../components/Reviews';
 
 describe('Reviews Component', () => {
   const mockReviews = [
@@ -23,13 +23,13 @@ describe('Reviews Component', () => {
 
   it('renders section headers correctly', () => {
     render(<Reviews reviews={mockReviews} />);
-    
-   expect(screen.getByText(/what our customers say/i)).toBeInTheDocument();
+
+    expect(screen.getByText(/what our customers say/i)).toBeInTheDocument();
   });
 
   it('renders dynamic review cards passed via props', () => {
     render(<Reviews reviews={mockReviews} />);
-    
+
     expect(screen.getByText('Sarah Jenkins')).toBeInTheDocument();
     expect(screen.getByText('David Chen')).toBeInTheDocument();
     expect(screen.getByText(/sourcing items direct from sellers/i)).toBeInTheDocument();

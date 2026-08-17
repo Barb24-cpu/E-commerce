@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import OrderCard from "../components/OrderCard";
-import Navbar from "../components/Navbar";
+import Navbar from "../tests/Navbar";
 
 export default function Orders() {
   const [orders, setOrders] = useState([]);

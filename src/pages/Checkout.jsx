@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
-import Navbar from "../components/Navbar";
+import Navbar from "../tests/Navbar";
 import EmptyCart from "../components/checkout/EmptyCart";
 import CheckoutHeader from "../components/checkout/CheckoutHeader";
 import CustomerInfo from "../components/checkout/CustomerInfo";

@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
 import productsData from "../data/products.json";
 import { useCart } from "../context/CartContext";
-import Navbar from "../components/Navbar";
+import Navbar from "../tests/Navbar";
 import ProductImage from "../components/ProductImage";
 import ProductInfo from "../components/ProductInfo";
 import QuantitySelector from "../components/QuantitySelector";

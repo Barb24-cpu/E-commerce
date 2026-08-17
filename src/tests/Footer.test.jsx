@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
-import Footer from './Footer';
+import Footer from '../components/Footer';
 
 describe('Footer Component', () => {
   it('renders footer component without crashing', () => {
@@ -11,7 +11,7 @@ describe('Footer Component', () => {
 
   it('displays copyright or brand text', () => {
     render(<Footer />);
-    
+
     // Checks for copyright text or brand name safely
     expect(screen.getByText(/rights reserved/i)).toBeInTheDocument();
   });
