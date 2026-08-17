@@ -1,23 +1,59 @@
-import '@testing-library/jest-dom';
-import { render, screen } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom';
-import { describe, it, expect, vi } from 'vitest';
-import Navbar from '../components/Navbar';
+import { render, screen } from "@testing-library/react";
+import { describe, it, expect, vi } from "vitest";
+import { MemoryRouter } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import { AuthProvider } from "../context/AuthProvider";
+import { AuthContext } from "../context/AuthContext";
+import { CartProvider } from "../context/CartProvider";
 
-// Mock context hook from src/context/CartContext
-vi.mock('../context/CartContext', () => ({
-  useCart: () => ({ cart: [], cartCount: 0 }),
-}));
-
-describe('Navbar Component', () => {
-  it('renders navigation links', () => {
-    render(
+function renderNavbar(authValue = null) {
+  if (authValue) {
+    return render(
       <MemoryRouter>
-        <Navbar />
+        <AuthContext.Provider value={authValue}>
+          <CartProvider>
+            <Navbar />
+          </CartProvider>
+        </AuthContext.Provider>
       </MemoryRouter>
     );
+  }
+  return render(
+    <MemoryRouter>
+      <AuthProvider>
+        <CartProvider>
+          <Navbar />
+        </CartProvider>
+      </AuthProvider>
+    </MemoryRouter>
+  );
+}
 
-    // Verifies rendering by checking for navigation role
-    expect(screen.getByRole('navigation')).toBeInTheDocument();
+describe("Navbar", () => {
+  it("renders SokoPlus brand", () => {
+    renderNavbar();
+    expect(screen.getByText("SokoPlus")).toBeInTheDocument();
+  });
+
+  it("renders Home and Products nav links", () => {
+    renderNavbar();
+    expect(screen.getByText("Home")).toBeInTheDocument();
+    expect(screen.getByText("Products")).toBeInTheDocument();
+  });
+
+  it("renders Cart link", () => {
+    renderNavbar();
+    expect(screen.getByText(/Cart/i)).toBeInTheDocument();
+  });
+
+  it("shows Login link when not authenticated", () => {
+    renderNavbar({ user: null, isAuthenticated: false, logout: vi.fn(), login: vi.fn(), register: vi.fn(), loading: false });
+    expect(screen.getByText("Login")).toBeInTheDocument();
+  });
+
+  it("shows username and Logout when authenticated", () => {
+    renderNavbar({ user: { name: "John", email: "j@j.com" }, isAuthenticated: true, logout: vi.fn(), login: vi.fn(), register: vi.fn(), loading: false });
+    expect(screen.getByText(/John/)).toBeInTheDocument();
+    expect(screen.getByText("Logout")).toBeInTheDocument();
   });
 });
